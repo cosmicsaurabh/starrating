@@ -1,0 +1,23 @@
+.outerbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.star-rating {
+    display: flex;
+    width:80%;
+    justify-content: center;
+    align-items: center;
+    background-color: aquamarine;
+    gap:10%;
+  }
+  
+  .star-rating .active {
+    color: gold;
+  }
+  
+  .star-rating .inactive {
+    color: gray;
+  }
+  
